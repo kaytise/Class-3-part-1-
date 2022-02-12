@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/********Navbar Section ********/
+.head{
+	width: 100%;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;	
+}
+html{
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0px 0px 0px;
+}
+.menu-btn ul li{
+	list-style: none;
+    display: inline-block;
+    margin: 10px ;
+
+}
+.logo{
+	vertical-align: middle;
+}
+
+/*********Navbar Section ends*******/
+
+/*********body  stars*******/
+.txt{
+	margin-top: 80px;
+	text-align: center;
+}
+.txt h1{
+     
+    font-size: 60px;
+}
+.e1{
+  color: #0f2656;
+}
+.e2{
+	color: #008aff;
+}
+.n-tex{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.desk{
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+/*******body Section ends*******/
+
+
+/*******under body Section stars*******/
+ 
+.t-banner{
+	display: flex;
+}
+.t-right,.t-left{
+	flex-basis: 50%;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.t-left h1{
+	color: red;
+	font-size: 60px;
+	text-align: right;
+}
+.t-left p{
+       text-align: right;
+       font-size: 18px;
+}
+.t-right{
+	text-align: left;
+	font-size: 24px;
+	color: #0f2656;
+}
+/*******under body Section ends*******/
+
+/*******projects start*******/
+   
+.project-bn{
+    	display: flex;
+    }
+ .p-1,.p-2,.p-3{
+ 	flex-basis: 33%;
+    margin-right: 20px;
+    margin-bottom: 140px;
+    margin-top: 50px;
+ }
+.p-1{
+	background-color: #feebed;
+    padding: 30px;
+}
+.p-2{
+	background-color: #EAF9F4;
+   padding: 30px;
+}
+.p-3{
+	background-color: #FFF8E8;
+    padding: 30px;
+} 
+.p-1 h3{
+	color: #0f2656;
+	font-size: 20px;
+	word-spacing: 4px;
+}
+.p-2 h3{
+	color: #0f2656;
+	font-size: 20px;
+	word-spacing: 4px;
+}
+.p-3 h3{
+    color: #0f2656;
+    font-size: 20px;
+    word-spacing: 4px;
+}
+.p-1 p{
+   font-size: 18px;
+    word-spacing: 4px;
+    padding-top: 20px
+}
+.p-2 p{
+   font-size: 18px;
+    word-spacing: 4px;
+    padding-top: 20px
+}
+.p-3 p{
+    font-size: 18px;
+    word-spacing: 4px;
+    padding-top: 20px;
+}
+
+/*******projects ends*******/
+
+/*******footer starts*******/
+
+.footer{
+     background-color: #008AFF;
+     text-align: center;
+     height: 80px;
+
+}
+.footer p{
+   padding-top: 30px;
+   color: white;
+   word-spacing: 1px;
+}
+.bol{
+	font-weight: 600;
+}
+/*******footer ends*******/
